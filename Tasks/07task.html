@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in html</title>
+</head>
+<body>
+    <fieldset>
+    <legend><h1><b>Student Registration Form</b></h1></legend>
+    <form action="">
+        <b><label for="uname">First Name:</label></b>
+        <input type="text" name="uname" id="uname" placeholder="Enter your first name"><br/><br/>
+        <b><label for="uname">Last Name:</label></b>
+        <input type="text" name="uname" id="uname" placeholder="Enter your last name"><br/><br/>
+        <b><label for="Email">Email:</label></b>
+        <input type="text" name="email" id="email" placeholder="it should contain @"><br/><br/>
+        <b><label for="Mobile">Mobile:</label></b>
+        <input type="number" name="mobile" id="mobile" placeholder="only 10 digits are allowed"><br/><br/>
+        <b><label for="Gender">Gender:</label></b>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female<br/><br/>
+        <b><label for="date">Date of Birth:</label></b>
+        <input type="date" id="test"><br/><br/>
+        <b><label for="address">Address:<br/><textarea name="address" rows="5" cols="40"></textarea></label></b><br/><br/>
+        <b><label for="city">City:</label></b>
+        <input type="text" name="city" id="city"><br/><br/>
+        <b><label for="area">Area PIN:</label></b>
+        <input type="number" name="area" id="area"><br/><br/>
+        <b><label for="state">State:</label></b>
+        <input type="text" name="state" id="state"><br/><br/>
+        <b><label for="qualification">Qualification:</label></b>
+        <select name="qualification" id="qualification">
+        <option value="select qualification">Select Qualification:</option>
+        <option value="BCA">BCA</option>
+        <option value="BSC">BSC</option>
+        <option value="IT">IT</option>
+        <option value="Bcom">Bcom</option>
+        <option value="MBA">MBA</option>    
+        </select><br/><br/>
+        <b><label for="specialization">Specialization:</label></b><br/>
+        <input type="checkbox" name="specialization" value="Computer Science">Computer Science<br/>
+        <input type="checkbox" name="specialization" value="Information Technology">Information Technolog<br/>
+        <input type="checkbox" name="specialization" value="Computer Architecture">Computer Architecture<br/>
+        <input type="checkbox" name="specialization" value="Tele Communication">Tele Communication<br/><br/>
+        <b><label for="pass">Password:</label></b>
+        <input type="password" name="password" id="password"><br/><br/>
+        <button>Registered</button>
+    </form>
+    </fieldset>
+</body>
+</html>
